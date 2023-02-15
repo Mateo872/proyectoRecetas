@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Panadería</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href=""><img src="./img/cocu_logo-450.png" alt="Logo" /></a>
+          </li>
+          <div class="links">
+            <li>
+              <a href="#" class="active">Inicio</a>
+            </li>
+            <li>
+              <a href="./pages/products.html">Productos</a>
+            </li>
+            <li>
+              <a href="./pages/contact.html">Contacto</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner-img">
+          <img
+            src="./img/ales-krivec-QnNqGoCnBg0-unsplash.jpg"
+            alt="Torta de chocolate"
+          />
+        </div>
+      </section>
+      <section class="about-us">
+        <h1 class="title">Sobre nosotros</h1>
+        <p class="about-us-paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam,
+          repellat hic ad impedit magni iure quo illum, corrupti facere,
+          possimus exercitationem minus molestias ipsum mollitia aspernatur
+          laboriosam quae deserunt dolores necessitatibus! Iusto odio ea sint.
+          Molestias unde vero repellendus eaque nostrum architecto nisi
+          corrupti, cupiditate assumenda autem. Velit, nostrum dolorem? Lorem
+          ipsum dolor, sit amet consectetur adipisicing elit. Molestiae minus
+          facere rerum dolorum modi. Odit earum et delectus accusamus
+          exercitationem. Dolores consequuntur incidunt error eaque commodi
+          tempora dolore odit unde?
+        </p>
+      </section>
+      <section class="clients">
+        <article class="client">
+          <h4 class="client-title">Atención al cliente</h4>
+          <p class="client-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            molestias alias unde est inventore voluptates.
+          </p>
+        </article>
+        <article class="client">
+          <h4 class="client-title">Atención al cliente</h4>
+          <p class="client-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            molestias alias unde est inventore voluptates.
+          </p>
+        </article>
+        <article class="client">
+          <h4 class="client-title">Atención al cliente</h4>
+          <p class="client-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            molestias alias unde est inventore voluptates.
+          </p>
+        </article>
+      </section>
+      <section class="flavors">
+        <h2 class="title">Probá nuestros sabores</h2>
+        <article class="flavors-images">
+          <div class="image">
+            <img src="./img/dulce.png" alt="Dulce" />
+          </div>
+          <div class="image">
+            <img src="./img/salado.png" alt="Salado" />
+          </div>
+          <div class="image">
+            <img src="./img/panyfactura.png" alt="Factura" />
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section class="sec-footer">
+        <article class="logo-img">
+          <a href="#"><img src="./img/cocu_logo-450.png" alt="Logo" /></a>
+        </article>
+        <article class="atention">
+          <h5>Horarios de atención</h5>
+          <ul>
+            <li>Lunes a viernes de 09 a 19hs</li>
+            <li>Sábados de 09 a 12hs</li>
+          </ul>
+        </article>
+        <article class="socials">
+          <h5>Seguinos en nuestras redes</h5>
+          <a href=""><i class="bi bi-whatsapp fs-5"></i></a>
+          <a href=""><i class="bi bi-instagram fs-5 mx-2"></i></a>
+          <a href=""><i class="bi bi-facebook fs-5"></i></a>
+        </article>
+      </section>
+    </footer>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBOOHdyvIYLvEynL4-dgG4FOGdZCn0WytI",
+        authDomain: "proyectorecetas-fdc93.firebaseapp.com",
+        projectId: "proyectorecetas-fdc93",
+        storageBucket: "proyectorecetas-fdc93.appspot.com",
+        messagingSenderId: "89094201776",
+        appId: "1:89094201776:web:e33e606f94684b5bed3675",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
